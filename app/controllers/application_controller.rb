@@ -9,4 +9,8 @@ class ApplicationController < ActionController::Base
     render html: "goodbye world! bye bye"
   end
   
+  def circle
+    render html: "circle!"
+  end
+  
 end
