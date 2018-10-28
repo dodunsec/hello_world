@@ -10,7 +10,7 @@ class ApplicationController < ActionController::Base
   end
   
   def circle
-    render html: "CircleCI is working!"
+    render html: "CircleCI is working! (try #2)"
   end
   
 end
