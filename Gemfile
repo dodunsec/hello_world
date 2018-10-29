@@ -1,6 +1,7 @@
 # history:
 #	20181028 - added sqlite3 to the overall and commented out in group :development, :test
 #	20181028 - added rspec
+#	20181028 - added rspec_junit_formatter
 
 source 'https://rubygems.org'
 
@@ -14,6 +15,7 @@ gem 'turbolinks',   '5.0.1'
 gem 'jbuilder',     '2.7.0'
 gem 'sqlite3',      '1.3.13'
 gem 'rspec'
+gem rspec_junit_formatter
 
 group :development, :test do
 #  gem 'sqlite3', '1.3.13'
